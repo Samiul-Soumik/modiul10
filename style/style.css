@@ -216,6 +216,22 @@
 .llllll {
   padding: 10px;
 }
+#e-b {
+  padding: 45px 42px;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 8px;
+
+  background: rgb(255, 144, 14);
+  color: rgb(255, 255, 255);
+  border: none;
+  margin-left: -80px;
+  margin-top: -100px;
+}
+#e-y {
+  font-size: 3rem;
+  font-weight: 700;
+}
 /* responship */
 @media screen and (max-width: 576px) {
   .nav-main,
