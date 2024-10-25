@@ -21,7 +21,7 @@
   border: none;
   color: rgb(255, 255, 255);
   font-family: Work Sans;
-  font-size: 20px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 23px;
   letter-spacing: 0%;
@@ -47,7 +47,7 @@
   color: black;
   color: rgb(66, 66, 66);
   font-family: Work Sans;
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: 500;
   line-height: 26px;
   letter-spacing: 0%;
@@ -59,7 +59,7 @@
 .nav-ittle {
   color: rgb(19, 19, 19);
   font-family: Work Sans;
-  font-size: 36px;
+  font-size: 2rem;
   font-weight: 700;
   line-height: 53px;
   letter-spacing: 0%;
@@ -75,17 +75,17 @@
 .banner-heding {
   color: rgb(19, 19, 19);
   font-family: Work Sans;
-  font-size: 58px;
+  font-size: 3rem;
   font-weight: 700;
   line-height: 75px;
   letter-spacing: 0%;
   text-align: center;
-  margin-top: 80px;
+  margin-top: 60px;
 }
 .banner-dep {
   color: rgb(114, 114, 114);
   font-family: Work Sans;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 26px;
   letter-spacing: 0%;
@@ -99,3 +99,140 @@
   margin-bottom: 20px;
 }
 /* main section */
+.fst-section {
+  margin-top: 60px;
+}
+.main {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.main-one {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+.all-img {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+.right-text-a {
+}
+.oh-yea {
+  font-family: Work Sans;
+  font-size: 2.3rem;
+  font-weight: 700;
+  line-height: 53px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 16px;
+}
+.h-one {
+  color: rgb(114, 114, 114);
+  font-weight: 500;
+}
+.h-two {
+  color: rgb(19, 19, 19);
+}
+.h-tree {
+  color: rgb(255, 144, 14);
+}
+.h-dep {
+  color: rgb(114, 114, 114);
+  font-family: Work Sans;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+/* sec section */
+.sec-section {
+  margin-top: 60px;
+}
+.f-con {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 80px;
+}
+.fact {
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 144, 14);
+  border-radius: 8px;
+  padding: 40px;
+  text-align: center;
+}
+.fact-numbrs {
+  color: rgb(66, 66, 66);
+  font-family: Work Sans;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 53px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.fact-name {
+  color: rgb(114, 114, 114);
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.lalala {
+  display: flex;
+  margin-top: 100px;
+  gap: 90px;
+}
+.cc-img {
+  width: 500px;
+}
+.cmkomoo {
+  color: rgb(19, 19, 19);
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.mal {
+  border-radius: 8px;
+
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  background: rgb(255, 255, 255);
+  padding: 25px;
+  margin-bottom: 20px;
+}
+.llll {
+  border-left: 5px solid orange;
+  padding-right: 10px;
+}
+.llllll {
+  padding: 10px;
+}
+/* responship */
+@media screen and (max-width: 576px) {
+  .nav-main,
+  .Right-section,
+  .main-one,
+  .lalala {
+    flex-direction: column;
+  }
+
+  .all-img,
+  .f-con {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 12px;
+  }
+
+  .right-text-a {
+    text-align: center;
+  }
+}
